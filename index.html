@@ -12,7 +12,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 50vh;
+            height: 100vh;
             background-color: #f0f0f0;
         }
         .container {
@@ -21,9 +21,17 @@
             border-radius: 8px;
             width: 120%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .header-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2F4F4F;
+            margin-bottom: 20px;
         }
         .input-group {
             margin-bottom: 15px;
+            text-align: left;
         }
         .input-group label {
             display: block;
@@ -51,6 +59,11 @@
 </head>
 <body>
     <div class="container">
+        <!-- Доданий текст -->
+        <div class="header-text">
+            Будь співавтором каналу, полілись посиланням!
+        </div>
+        <!-- Форма -->
         <form id="telegramForm">
             <div class="input-group">
                 <label for="field1">Введіть ціну:</label>
