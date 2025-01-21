@@ -1,3 +1,10 @@
+document.addEventListener('click', (e) => {
+    // Якщо клік не в полі вводу, приховати клавіатуру
+    if (!e.target.matches('input, textarea')) {
+        document.activeElement.blur(); // Забирає фокус з поля
+    }
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('telegramForm');
 
