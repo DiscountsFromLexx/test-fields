@@ -17,15 +17,20 @@
             height: 100vh;
             background-color: #F5F5F5;
         }    
-        .hide-keyboard-btn {
+                .hide-keyboard-btn {
             background-color: #DCDCDC;
             color: #000;
             padding: 10px 20px;
             border: none;
             border-radius: 4px;
-            margin-top: 5px;
+            margin: 0; /* Забираємо маргін, щоб точніше контролювати позицію */
             font-size: 14px;
             cursor: pointer;
+        
+            position: fixed; /* Фіксує кнопку у вікні */
+            bottom: 10px; /* Відступ від нижнього краю вікна */
+            right: 10px; /* Відступ від правого краю вікна */
+            z-index: 1000; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
         }
         .container {
             margin-top: 0px;
