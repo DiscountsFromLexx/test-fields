@@ -26,3 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Here you can add the logic to process the input data or send it to a server
     });
 });
+
+document.querySelectorAll('input, textarea').forEach((input) => {
+    input.addEventListener('focus', () => {
+        // Прокручуємо до кнопки
+        setTimeout(() => {
+            document.querySelector('.submit-btn').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 300); // Затримка для коректної роботи на iOS
+    });
+});
