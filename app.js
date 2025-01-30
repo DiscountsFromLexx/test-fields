@@ -55,5 +55,11 @@ document.querySelectorAll('input, textarea').forEach((input) => {
         }, 300); // Затримка для коректної роботи на iOS
     });
 });
+document.querySelector(".instruction-btn").addEventListener("click", function () {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth"
+    });
+});
 
 
