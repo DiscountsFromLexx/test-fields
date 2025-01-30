@@ -196,135 +196,23 @@
             right: 20px; /* Відступ від правого краю вікна */
             z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
         }
-        .instruction-btn {
-            background-color: #000000;
-            color: #40E0D0;
-            padding: 10px 15px;
-            1px solid #40E0D0;
-            border-radius: 4px;
-            margin: 0; /* Забираємо маргін, щоб точніше контролювати позицію */
-            font-size: 14px;
-            cursor: pointer;
         
-            position: fixed; /* Фіксує кнопку у вікні */
-            top: 40px; /* Відступ від нижнього краю вікна */
-            left: 20px; /* Відступ від правого краю вікна */
-            z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
-        }
-        .container {
-            margin-top: 0px;
-            background-color: #000000;
-            padding: 15px;
-            border-radius: 20px;
-            border: 1px solid #40E0D0;
-            height: 70%;
-            width: 90%;
-            font-size: 16px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }        
-        .header-text {
-            margin-top: 50px;
-            font-size: 24px;
-            font-weight:;
-            color: #48D1CC;
-            margin-bottom: 20px;
-        }
-        .input-group {
-            margin-bottom: 15px;
-            text-align: left;
-            font-size: 20px;
-            color: #48D1CC;
-        }
-        .input-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-size: 20px;
-            color: #48D1CC
-        }
-        .input-group input {
-            width: 90%;
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-size: 20px;
-            background-color: #000000
-            font-color: #48D1CC
+        
+        
             
-        }
-        .submit-btn {
-            margin-top: 30px;
-            background-color: #000000;
-            color: #fff;
-            padding: 15px 55px;
-            border: 0.5px solid #FF7F50;            
-            border-radius: 6px;
-            font-size: 20px;
-            cursor: pointer;
-        }
-        .submit-btn:hover {
-            background-color: #000000;
-        }        
-        .channels-text {
-            margin-top: 50px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fff;
-            margin-bottom: left;
-        }
-        .channels-text a {
-            color: #4169E1; /* Синій колір посилання */
-            text-decoration: none; /* Прибрати підкреслення */
-        }
-        
-        .channels-text a:hover {
-            text-decoration: underline; /* Підкреслення при наведенні */
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Доданий текст -->
-        <button type="button" class="hide-keyboard-btn" onclick="document.activeElement.blur();">Сховати клавіатуру</button>
-        <button type="button" class="instruction-btn" onclick="document.activeElement.blur();">Інструкції</button>
-        <div class="header-text">
-            Ставайте співавтором каналу, ділитесь знахідками!
-        </div>
-        <!-- Форма -->
-        <form id="telegramForm">
-            <div class="input-group">
-                <label for="field1">Ціна:</label>
-                <input type="text" id="field1" name="field1" placeholder="Введіть кінцеву ціну" required>
-            </div>
-            <div class="input-group">
-                <label for="field2">Знижка:</label>
-                <input type="text" id="field2" name="field2" placeholder="Введіть розмір знижки - обов'язково" required>
-            </div>
-            <div class="input-group">
-                <label for="field3">Додаткові умови:</label>
-                <input type="text" id="field3" name="field3" placeholder="Вкажіть умови, якщо є" required>
-            </div>
-            <div class="input-group">
-                <label for="field4">Посилання:</label>
-                <input type="text" id="field4" name="field4" placeholder="Вставте посилання на товар" required>
-            </div>
-            <div class="input-group">
-                <label for="field5">Коментарі:</label>
-                <input type="text" id="field5" name="field5" placeholder="Додайте свої коментарі" required>
-            </div>
-            <button type="submit" class="submit-btn">☀️ ПОДІЛИТИСЬ ☀️</button>
             <div class="channels-text">
             <div class="channels-text">
-            <br>🔆 НАШІ ТЕЛЕГРАМ КАНАЛИ
+            Інструкції
         
-            <br><br>🌶 <strong>𝐀ʟì↻ᴀᴛട 🐾</strong> - канал де публікуються товари за ціною більше 100 грн.
-            <br><a href="https://t.me/+7dNuLBNGj244MWU6" target="_blank">https://t.me/+7dNuLBNGj244MWU6</a>
+            <br><br>В полі "Ціна" обов'язково пишіть ціну та валюту.
+            <br>В полі "Знижка" обов'язково пишіть розмір знижки (за монети, без монет).
+            <br>Поле "Додаткові умови" не обов'язково, в ньому пишіть наявність купона чи інші умови.
+            <br>В полі "Посилання" обов'язково пишіть посилання на товар з мобільного додатку "https://a.aliexpress.com/...", або сайту "https://www.aliexpress.com/...".
+             <br> Заборонені посилання, що починаються на "https://s.click.aliexpress.com/..."
+
         
-            <br><br>💸 <strong>Аліекспрес - ШАРА НА ШАРУ!</strong> - канал де публікуються товари за ціною дешевше 100 грн.
-            <br><a href="https://t.me/+96EuuIO84_I3NDU6" target="_blank">https://t.me/+96EuuIO84_I3NDU6</a>
-        
-            <br><br>🔥 <strong>Сховище промокодів з AliExpress</strong> - купуйте ще дешевше, використовуючи знайдені нами для вас промокоди.
-            <br><a href="https://t.me/+TSjki0TSVRI4YzYy" target="_blank">https://t.me/+TSjki0TSVRI4YzYy<br><br><br>
+            <br><br><strong>Ваш товар буде опубліковано на телеграм каналі ЗНАХІДКИ від друзів</strong>
+            <br><a href="https://t.me/myznahidki" target="_blank">https://t.me/myznahidki<br><br><br>
             
             
             
