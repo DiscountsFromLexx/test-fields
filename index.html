@@ -224,9 +224,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    window.addEventListener("scroll", updateButtonPosition);
-});
-</script>
+        window.addEventListener("scroll", updateButtonPosition);
+    });
+    </script>
+    document.querySelector(".instruction-btn").addEventListener("click", function () {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth"
+        });
+    });
 </body>
     body         
         {
