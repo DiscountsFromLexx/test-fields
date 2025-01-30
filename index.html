@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const container2Top = container2.getBoundingClientRect().top;
         const viewportHeight = window.innerHeight;
 
-        if (container2Top <= 40) {
+        if (container2Top <= 10) {
             hideKeyboardBtn.style.position = "absolute";
             instructionBtn.style.position = "absolute";
             hideKeyboardBtn.style.top = `${window.scrollY + container2Top}px`;
