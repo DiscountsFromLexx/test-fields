@@ -201,6 +201,32 @@
         </form>
     </div>
     <script src="app.js"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const hideKeyboardBtn = document.querySelector(".hide-keyboard-btn");
+    const instructionBtn = document.querySelector(".instruction-btn");
+    const container2 = document.querySelector(".container2");
+
+    function updateButtonPosition() {
+        const container2Top = container2.getBoundingClientRect().top;
+        const viewportHeight = window.innerHeight;
+
+        if (container2Top <= 40) {
+            hideKeyboardBtn.style.position = "absolute";
+            instructionBtn.style.position = "absolute";
+            hideKeyboardBtn.style.top = `${window.scrollY + container2Top}px`;
+            instructionBtn.style.top = `${window.scrollY + container2Top}px`;
+        } else {
+            hideKeyboardBtn.style.position = "fixed";
+            instructionBtn.style.position = "fixed";
+            hideKeyboardBtn.style.top = "40px";
+            instructionBtn.style.top = "40px";
+        }
+    }
+
+    window.addEventListener("scroll", updateButtonPosition);
+});
+</script>
 </body>
     body         
         {
