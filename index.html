@@ -60,19 +60,19 @@
             text-align: center;
         }  
         .container2 {
-            margin-top: 230px;
+            margin-top: 50px;
             background-color: #000000;
             padding: 15px;
             border-radius: 20px;
             border: 1px solid #40E0D0;
-            height: 100%;
+            height: 900%;
             width: 90%;
             font-size: 16px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: left;
         }  
         .header-text {
-            margin-top: 35px;
+            margin-top: 5px;
             font-size: 24px;
             font-weight:;
             color: #48D1CC;
@@ -134,6 +134,13 @@
         }        
         .channels-text {
             margin-top: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: left;
+        }
+        .instructions-text {
+            margin-top: 5px;
             font-size: 16px;
             font-weight: bold;
             color: #fff;
@@ -227,12 +234,14 @@ document.addEventListener("DOMContentLoaded", function () {
         window.addEventListener("scroll", updateButtonPosition);
     });
     </script>
+    <script>
     document.querySelector(".instruction-btn").addEventListener("click", function () {
     window.scrollTo({
         top: document.body.scrollHeight,
         behavior: "smooth"
         });
     });
+    </script>
 </body>
     body         
         {
@@ -244,13 +253,14 @@ document.addEventListener("DOMContentLoaded", function () {
             align-items: center;
             height: 120vh;
             background-color: #000000;
-        }    
+        }
+        <body>
         <div class="container2">
         <button type="button" class="scroll-top-btn" onclick="scrollToTop()">ВВЕРХ</button>    
             <div class="header-text">
             Інструкції
             </div>
-            <div class="channels-text">           
+            <div class="instructions-text">           
         
             <br>✅ В полі "Ціна" обов'язково пишіть ціну та валюту.
             <br><br>✅ В полі "Знижка" обов'язково пишіть розмір знижки (за монети, без монет).
@@ -268,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function () {
             シ Гарного настрою!<br><br><br><br><br><br>
                             
             </div>
-        </form>
+        
     </div>
     <script src="app.js"></script>
 </body>
