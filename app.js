@@ -7,6 +7,26 @@ document.addEventListener('click', (e) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('telegramForm');
+    const instructionBtn = document.querySelector('.instruction-btn');
+    const scrollTopBtn = document.querySelector('.scroll-top-btn');
+    // Прокрутка донизу при натисканні "Інструкції"
+    instructionBtn.addEventListener('click', () => {
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    });
+
+    // Показ/приховування кнопки "ВВЕРХ"
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollTopBtn.style.display = 'block';
+        } else {
+            scrollTopBtn.style.display = 'none';
+        }
+    });
+
+    // Функція для прокрутки нагору
+    window.scrollToTop = function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     form.addEventListener('submit', function (event) {
         event.preventDefault();
@@ -35,49 +55,5 @@ document.querySelectorAll('input, textarea').forEach((input) => {
         }, 300); // Затримка для коректної роботи на iOS
     });
 });
-document.addEventListener('DOMContentLoaded', () => {
-    const instructionBtn = document.querySelector('.instruction-btn');
-    const scrollTopBtn = document.querySelector('.scroll-top-btn');
 
-    // Прокрутка донизу при натисканні "Інструкції"
-    instructionBtn.addEventListener('click', () => {
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-    });
 
-    // Показ/приховування кнопки "ВВЕРХ"
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            scrollTopBtn.style.display = 'block';
-        } else {
-            scrollTopBtn.style.display = 'none';
-        }
-    });
-
-    // Функція для прокрутки нагору
-    window.scrollToTop = function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-});
-document.addEventListener('DOMContentLoaded', () => {
-    const instructionBtn = document.querySelector('.instruction-btn');
-    const scrollTopBtn = document.querySelector('.scroll-top-btn');
-
-    // Прокрутка донизу при натисканні "Інструкції"
-    instructionBtn.addEventListener('click', () => {
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-    });
-
-    // Показ/приховування кнопки "ВВЕРХ"
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            scrollTopBtn.style.display = 'block';
-        } else {
-            scrollTopBtn.style.display = 'none';
-        }
-    });
-
-    // Функція для прокрутки нагору
-    window.scrollToTop = function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-});
