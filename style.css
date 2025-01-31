@@ -1,13 +1,14 @@
 body {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000000;
     height: 100vh;
     
+    
 }    
         .main-container {
-            display: block;
+            display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
@@ -78,7 +79,7 @@ body {
             font-color: #fff
         }
         .input-group input {
-            width: 95%;
+            width: 90%;
             padding: 8px;
             border: 1px solid #ccc;
             border-radius: 8px;
@@ -123,7 +124,7 @@ body {
             border-radius: 20px;
             border:;
             height: 90%;
-            width: 100%;
+            width: 90%;
             font-size: 16px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: left;
@@ -144,7 +145,7 @@ body {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #40E0D0;
+            background-color: #FF7F50;
             color: #fff;
             padding: 10px 15px;
             border: none;
