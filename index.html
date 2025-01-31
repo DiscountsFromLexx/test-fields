@@ -34,12 +34,110 @@
                 <label for="field5">Коментарі:</label>
                 <input type="text" id="field5" name="field5" placeholder="Додайте коментар (необов'язково)">
             </div>
-            <button type="submit" class="submit-btn">Відправити</button>
+            <button type="submit" class="submit-btn">☀️ ПОДІЛИТИСЬ ☀️</button>
         </form>
     </div>
 
     <button class="scroll-top-btn" onclick="window.scrollToTop()">Вгору</button>
 
+    <script src="app.js"></script>
+
+    <div class="channels-text">
+            <br>🔆 НАШІ ТЕЛЕГРАМ КАНАЛИ
+        
+            <br><br>🌶 <strong>𝐀ʟì↻ᴀᴛട 🐾</strong> - канал де публікуються товари за ціною більше 100 грн.
+            <br><a href="https://t.me/+7dNuLBNGj244MWU6" target="_blank">https://t.me/+7dNuLBNGj244MWU6</a>
+        
+            <br><br>💸 <strong>Аліекспрес - ШАРА НА ШАРУ!</strong> - канал де публікуються товари за ціною дешевше 100 грн.
+            <br><a href="https://t.me/+96EuuIO84_I3NDU6" target="_blank">https://t.me/+96EuuIO84_I3NDU6</a>
+        
+            <br><br>🔥 <strong>Сховище промокодів з AliExpress</strong> - купуйте ще дешевше, використовуючи знайдені нами для вас промокоди.
+            <br><a href="https://t.me/+TSjki0TSVRI4YzYy" target="_blank">https://t.me/+TSjki0TSVRI4YzYy</a><br><br><br>
+            
+            
+            
+            シ Ми працюємо для вас та завдяки вам!♥️<br><br><br><br><br><br>
+                            
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+    
+    <script>
+
+    
+    document.querySelector(".instruction-btn").addEventListener("click", function () {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth"
+        });
+    });
+    </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".instruction-btn, .hide-keyboard-btn");
+    const submitBtn = document.querySelector(".submit-btn");
+
+    const observer = new IntersectionObserver(
+        ([entry]) => {
+            if (!entry.isIntersecting) {
+                buttons.forEach(button => {
+                    button.style.transform = "translateY(0px)"; // Піднімаємо обидві кнопки вгору
+                });
+            } else {
+                buttons.forEach(button => {
+                    button.style.transform = "translateY(0)"; // Повертаємо на місце
+                });
+            }
+        },
+        { root: null, threshold: 0.1 }
+    );
+
+    observer.observe(submitBtn);
+});
+    </script>
+    </body>
+    <style>
+    body         
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000000;
+        }
+        </style>
+        
+        <body>
+        <div class="container2">
+            <button type="button" class="scroll-top-btn" onclick="scrollToTop()">ВВЕРХ</button>
+            
+            <div class="iheader-text">
+            Інструкції
+            </div>
+            <div class="instructions-text">           
+        
+            <br>✅ В полі "Ціна" обов'язково пишіть ціну та валюту.
+            <br><br>✅ В полі "Знижка" обов'язково пишіть розмір знижки (за монети, без монет).
+            <br><br>✅ Поле "Додаткові умови" не обов'язково, в ньому пишіть наявність купона чи інші умови.
+            <br><br>✅ В полі "Посилання" обов'язково пишіть посилання на товар з мобільного додатку "https://a.aliexpress.com/...", або сайту "https://www.aliexpress.com/...".
+            <br><br>🚫 Заборонені посилання, що починаються на "https://s.click.aliexpress.com/..."
+            <br><br>♥️ Діліться товаром з думкою, що Ви робите когось таким же щасливчиком, як Ви!
+
+        
+            <br><br><strong>Ваш товар буде опубліковано на телеграм каналі ЗНАХІДКИ від друзів</strong>
+            <br><a href="https://t.me/myznahidki" target="_blank">https://t.me/myznahidki</a><br><br><br>
+            
+            
+            
+            シ Гарного настрою!
+                            
+            </div>
+        
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
