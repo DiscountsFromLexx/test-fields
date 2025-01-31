@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ([entry]) => {
             if (!entry.isIntersecting) {
                 buttons.forEach(button => {
-                    button.style.transform = "translateY(100px)"; // Піднімаємо обидві кнопки вгору
+                    button.style.transform = "translateY(40px)"; // Піднімаємо обидві кнопки вгору
                 });
             } else {
                 buttons.forEach(button => {
