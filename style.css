@@ -4,7 +4,7 @@ body {
     align-items: center;
     background-color: #000000;
     height: 100vh;
-    width: 100%;
+    width: 100vh;
 }    
         .main-container {
             display: block;
@@ -51,7 +51,7 @@ body {
             border-radius: 20px;
             border: ;
             height: 100%;
-            width: 100%;
+            width: 90%;
             font-size: 16px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
