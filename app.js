@@ -55,6 +55,7 @@ document.querySelectorAll('input, textarea').forEach((input) => {
         }, 300); // Затримка для коректної роботи на iOS
     });
 });
+
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".instruction-btn, .hide-keyboard-btn");
     const submitBtn = document.querySelector(".submit-btn");
@@ -76,5 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     observer.observe(submitBtn);
 });
+
 
 
