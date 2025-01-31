@@ -98,7 +98,7 @@
             border: 1px solid #ccc;
             border-radius: 8px;
             font-size: 20px;
-            background-color: #708090
+            background-color: #000000;
             font-color: #48D1CC
             
         }
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const container2Top = container2.getBoundingClientRect().top;
         const viewportHeight = window.innerHeight;
 
-        if (container2Top <= -10) {
+        if (container2Top <= -20) {
             hideKeyboardBtn.style.position = "absolute";
             instructionBtn.style.position = "absolute";
             hideKeyboardBtn.style.top = `${window.scrollY + container2Top}px`;
