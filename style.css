@@ -4,12 +4,7 @@ body {
     align-items: center;
     height: 100vh;
 }    
-        .container, .container2 {
-            display: block;
-            width: 100%;
-            max-width: 100%;
-            margin: 0 auto;
-        }
+        
         .hide-keyboard-btn {
             background-color: #000000;
             color: #40E0D0;
@@ -41,7 +36,7 @@ body {
             z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
         }
         .container {
-            margin-top: 60px;
+            margin-top: 20px;
             background-color: #000000;
             padding: 15px;
             border-radius: 20px;
