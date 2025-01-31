@@ -106,7 +106,7 @@
             margin-top: 25px;
             background-color: #000000;
             color: #fff;
-            padding: 15px 35px;
+            padding: 15px 25px;
             border: 2px solid #FFFF00;            
             border-radius: 6px;
             font-size: 20px;
@@ -215,13 +215,13 @@
 document.addEventListener("DOMContentLoaded", function () {
     const hideKeyboardBtn = document.querySelector(".hide-keyboard-btn");
     const instructionBtn = document.querySelector(".instruction-btn");
-    const container2 = document.querySelector(".container2");
+    const submitbtn = document.querySelector(".submit-btn");
 
     function updateButtonPosition() {
-        const container2Top = container2.getBoundingClientRect().top;
+        const submitbtnTop = submitbtn.getBoundingClientRect().top;
         const viewportHeight = window.innerHeight;
 
-        if (container2Top <= -20) {
+        if (submitbtn <= -20) {
             hideKeyboardBtn.style.position = "absolute";
             instructionBtn.style.position = "absolute";
             hideKeyboardBtn.style.top = `${window.scrollY + container2Top}px`;
@@ -259,9 +259,10 @@ document.addEventListener("DOMContentLoaded", function () {
             background-color: #000000;
         }
         </style>
-        <button type="button" class="scroll-top-btn" onclick="scrollToTop()">ВВЕРХ</button>
+        
         <body>
         <div class="container2">
+            <button type="button" class="scroll-top-btn" onclick="scrollToTop()">ВВЕРХ</button>
             
             <div class="header-text">
             Інструкції
