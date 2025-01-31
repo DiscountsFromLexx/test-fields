@@ -55,11 +55,26 @@ document.querySelectorAll('input, textarea').forEach((input) => {
         }, 300); // Затримка для коректної роботи на iOS
     });
 });
-document.querySelector(".instruction-btn").addEventListener("click", function () {
-    window.scrollTo({
-        top: document.body.scrollHeight,
-        behavior: "smooth"
-    });
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".instruction-btn, .hide-keyboard-btn");
+    const submitBtn = document.querySelector(".submit-btn");
+
+    const observer = new IntersectionObserver(
+        ([entry]) => {
+            if (!entry.isIntersecting) {
+                buttons.forEach(button => {
+                    button.style.transform = "translateY(40px)"; // Піднімаємо обидві кнопки вгору
+                });
+            } else {
+                buttons.forEach(button => {
+                    button.style.transform = "translateY(0)"; // Повертаємо на місце
+                });
+            }
+        },
+        { root: null, threshold: 0.1 }
+    );
+
+    observer.observe(submitBtn);
 });
 
 
