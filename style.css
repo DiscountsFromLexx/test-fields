@@ -28,6 +28,9 @@ body {
     max-width: 400px;
     text-align: center;
 }
+
+
+
 .hide-keyboard-btn, .instruction-btn {
     background-color: #000;
     color: #40E0D0;
@@ -43,6 +46,21 @@ body {
 
 .hide-keyboard-btn { right: 15px; }
 .instruction-btn { left: 15px; }
+
+.channels-text {
+            margin-top: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: left;
+}
+.instructions-text {
+            margin-top: 5px;
+            font-size: 16px;
+            font-weight:lighter;
+            color: #fff;
+            margin-bottom: left;
+}
 
 .input-group {
     margin-bottom: 15px;
