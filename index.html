@@ -213,6 +213,8 @@
     <script src="app.js"></script>
     
     <script>
+
+    
     document.querySelector(".instruction-btn").addEventListener("click", function () {
     window.scrollTo({
         top: document.body.scrollHeight,
@@ -220,7 +222,30 @@
         });
     });
     </script>
-</body>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".instruction-btn, .hide-keyboard-btn");
+    const submitBtn = document.querySelector(".submit-btn");
+
+    const observer = new IntersectionObserver(
+        ([entry]) => {
+            if (!entry.isIntersecting) {
+                buttons.forEach(button => {
+                    button.style.transform = "translateY(40px)"; // Піднімаємо обидві кнопки вгору
+                });
+            } else {
+                buttons.forEach(button => {
+                    button.style.transform = "translateY(0)"; // Повертаємо на місце
+                });
+            }
+        },
+        { root: null, threshold: 0.1 }
+    );
+
+    observer.observe(submitBtn);
+});
+    </script>
+    </body>
     <style>
     body         
         {
