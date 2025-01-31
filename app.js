@@ -56,27 +56,7 @@ document.querySelectorAll('input, textarea').forEach((input) => {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    const buttons = document.querySelectorAll(".instruction-btn, .hide-keyboard-btn");
-    const submitBtn = document.querySelector(".submit-btn");
 
-    const observer = new IntersectionObserver(
-        ([entry]) => {
-            if (!entry.isIntersecting) {
-                buttons.forEach(button => {
-                    button.style.transform = "translateY(40px)"; // Піднімаємо обидві кнопки вгору
-                });
-            } else {
-                buttons.forEach(button => {
-                    button.style.transform = "translateY(0)"; // Повертаємо на місце
-                });
-            }
-        },
-        { root: null, threshold: 0.1 }
-    );
-
-    observer.observe(submitBtn);
-});
 
 
 
