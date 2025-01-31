@@ -65,39 +65,7 @@
     </div>
     <script src="app.js"></script>
     
-    <script>
-
-    
-    document.querySelector(".instruction-btn").addEventListener("click", function () {
-    window.scrollTo({
-        top: document.body.scrollHeight,
-        behavior: "smooth"
-        });
-    });
-    </script>
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-    const buttons = document.querySelectorAll(".instruction-btn, .hide-keyboard-btn");
-    const submitBtn = document.querySelector(".submit-btn");
-
-    const observer = new IntersectionObserver(
-        ([entry]) => {
-            if (!entry.isIntersecting) {
-                buttons.forEach(button => {
-                    button.style.transform = "translateY(0px)"; // Піднімаємо обидві кнопки вгору
-                });
-            } else {
-                buttons.forEach(button => {
-                    button.style.transform = "translateY(0)"; // Повертаємо на місце
-                });
-            }
-        },
-        { root: null, threshold: 0.1 }
-    );
-
-    observer.observe(submitBtn);
-});
-    </script>
+   
     </body>
 
     <body>
