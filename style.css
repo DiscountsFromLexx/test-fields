@@ -1,98 +1,107 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #000;
-    color: #fff;
-}
-
-.container {
-    margin-top: 30px;
-    background-color: #000;
-    padding: 15px;
-    border-radius: 20px;
-    width: 100%;
-    max-width: 100px;
-    text-align: center;
-} 
-.container2 {
-    margin-top: 20px;
-    background-color: #000;
-    padding: 15px;
-    border-radius: 20px;
-    width: 100%;
-    max-width: 100px;
-    text-align: center;
-}
-
-
-
-.hide-keyboard-btn, .instruction-btn {
-    background-color: #000;
-    color: #40E0D0;
-    padding: 10px 15px;
-    border: 1px solid #40E0D0;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
-    position: fixed;
-    top: 20px;
-    z-index: 1100;
-}
-
-.hide-keyboard-btn { right: 15px; }
-.instruction-btn { left: 15px; }
-
-.channels-text {
-            margin-top: 20px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fff;
-            margin-bottom: left;
-}
-.channels-text a {
-            color: #4169E1; /* Синій колір посилання */
-            text-decoration: none; /* Прибрати підкреслення */
-        }
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000000;
+        }    
+        .hide-keyboard-btn {
+            background-color: #000000;
+            color: #40E0D0;
+            padding: 10px 15px;
+            1px solid #40E0D0;
+            border-radius: 4px;
+            margin: 0; /* Забираємо маргін, щоб точніше контролювати позицію */
+            font-size: 14px;
+            cursor: pointer;
         
-        .channels-text a:hover {
-            text-decoration: underline; /* Підкреслення при наведенні */
+            position: fixed; /* Фіксує кнопку у вікні */
+            top: 20px; /* Відступ від нижнього краю вікна */
+            right: 15px; /* Відступ від правого краю вікна */
+            z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
         }
-.instructions-text {
-            margin-top: 5px;
+        .instruction-btn {
+            background-color: #000000;
+            color: #40E0D0;
+            padding: 10px 15px;
+            1px solid #40E0D0;
+            border-radius: 4px;
+            margin: 0; /* Забираємо маргін, щоб точніше контролювати позицію */
+            font-size: 14px;
+            cursor: pointer;
+        
+            position: fixed; /* Фіксує кнопку у вікні */
+            top: 20px; /* Відступ від нижнього краю вікна */
+            left: 15px; /* Відступ від правого краю вікна */
+            z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
+        }
+        .container {
+            margin-top: 60px;
+            background-color: #000000;
+            padding: 15px;
+            border-radius: 20px;
+            border: ;
+            height: 100%;
+            width: 100%;
             font-size: 16px;
-            font-weight:lighter;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }  
+        .container2 {
+            margin-top: 30px;
+            background-color: #000000;
+            padding: 15px;
+            border-radius: 20px;
+            border:;
+            height: 90%;
+            width: 100%;
+            font-size: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }  
+        .header-text {
+            margin-top: 40px;
+            font-size: 22px;
+            font-weight:;
             color: #fff;
-            margin-bottom: left;
-}
-
-.input-group {
-    margin-bottom: 15px;
-    text-align: left;
-    font-size: 18px;            
-    color: #48D1CC;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.input-group input {
-    width: 95%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 14px;
-    background-color: #000;
-    color: #fff;
-}
-
-.submit-btn {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .iheader-text {
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight:;
+            color: #fff;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+            font-size: 18px;            
+            color: #48D1CC;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            
+            background-color: #000000;
+            font-color: #fff
+        }
+        .input-group input {
+            width: 95%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+            background-color: #000000;
+            font-color: #fff
+            
+        }
+        .submit-btn {
             margin-top: 25px;
             background-color: #000000;
             color: #fff;
@@ -101,22 +110,49 @@ body {
             border-radius: 6px;
             font-size: 20px;
             cursor: pointer;
-}
+        }
+        .scroll-top-btn {
+            margin-top: 20px;
+            margin-left: 20px;
+            display: none; /* Початково прихована */
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #40E0D0;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            z-index: 1100;
+        }
 
-.submit-btn:hover { background-color: #111; }
-
-.scroll-top-btn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #40E0D0;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
-    z-index: 1100;
-}
-
-.scroll-top-btn:hover { background-color: #32C5B8; }
+        .scroll-top-btn:hover {
+            background-color: #32C5B8;
+        }
+        .submit-btn:hover {
+            background-color: #000000;
+        }        
+        .channels-text {
+            margin-top: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: left;
+        }
+        .instructions-text {
+            margin-top: 5px;
+            font-size: 16px;
+            font-weight:lighter;
+            color: #fff;
+            margin-bottom: left;
+        }
+        .channels-text a {
+            color: #4169E1; /* Синій колір посилання */
+            text-decoration: none; /* Прибрати підкреслення */
+        }
+        
+        .channels-text a:hover {
+            text-decoration: underline; /* Підкреслення при наведенні */
+        }
