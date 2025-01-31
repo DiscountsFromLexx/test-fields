@@ -143,7 +143,7 @@
         .instructions-text {
             margin-top: 5px;
             font-size: 16px;
-            font-weight: bold;
+            font-weight:;
             color: #fff;
             margin-bottom: left;
         }
@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const container2Top = container2.getBoundingClientRect().top;
         const viewportHeight = window.innerHeight;
 
-        if (container2Top <= 0) {
+        if (container2Top <= -10) {
             hideKeyboardBtn.style.position = "absolute";
             instructionBtn.style.position = "absolute";
             hideKeyboardBtn.style.top = `${window.scrollY + container2Top}px`;
