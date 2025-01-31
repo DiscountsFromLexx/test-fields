@@ -107,7 +107,7 @@
             background-color: #000000;
             color: #fff;
             padding: 15px 25px;
-            border: 2px solid #FFFF00;            
+            border: 2px solid #FF7F50;            
             border-radius: 6px;
             font-size: 20px;
             cursor: pointer;
@@ -213,29 +213,26 @@
     <script src="app.js"></script>
     <script>
 document.addEventListener("DOMContentLoaded", function () {
-    const hideKeyboardBtn = document.querySelector(".hide-keyboard-btn");
-    const instructionBtn = document.querySelector(".instruction-btn");
-    const submitbtn = document.querySelector(".submit-btn");
+    const buttons = document.querySelectorAll(".instruction-btn, .hide-keyboard-btn");
+    const submitBtn = document.querySelector(".submit-btn");
 
-    function updateButtonPosition() {
-        const submitbtnTop = submitbtn.getBoundingClientRect().top;
-        const viewportHeight = window.innerHeight;
+    const observer = new IntersectionObserver(
+        ([entry]) => {
+            if (!entry.isIntersecting) {
+                buttons.forEach(button => {
+                    button.style.transform = "translateY(40px)"; // Піднімаємо обидві кнопки вгору
+                });
+            } else {
+                buttons.forEach(button => {
+                    button.style.transform = "translateY(0)"; // Повертаємо на місце
+                });
+            }
+        },
+        { root: null, threshold: 0.1 }
+    );
 
-        if (submitbtn <= -20) {
-            hideKeyboardBtn.style.position = "absolute";
-            instructionBtn.style.position = "absolute";
-            hideKeyboardBtn.style.top = `${window.scrollY + container2Top}px`;
-            instructionBtn.style.top = `${window.scrollY + container2Top}px`;
-        } else {
-            hideKeyboardBtn.style.position = "fixed";
-            instructionBtn.style.position = "fixed";
-            hideKeyboardBtn.style.top = "20px";
-            instructionBtn.style.top = "20px";
-        }
-    }
-
-        window.addEventListener("scroll", updateButtonPosition);
-    });
+    observer.observe(submitBtn);
+});
     </script>
     <script>
     document.querySelector(".instruction-btn").addEventListener("click", function () {
