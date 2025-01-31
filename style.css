@@ -107,6 +107,12 @@ body {
         .channels-text a:hover {
             text-decoration: underline; /* Підкреслення при наведенні */
         }   
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
         .container2 {
             display: block;
             margin-top: 30px;
