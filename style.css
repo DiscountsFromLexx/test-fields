@@ -54,6 +54,14 @@ body {
             color: #fff;
             margin-bottom: left;
 }
+.channels-text a {
+            color: #4169E1; /* Синій колір посилання */
+            text-decoration: none; /* Прибрати підкреслення */
+        }
+        
+        .channels-text a:hover {
+            text-decoration: underline; /* Підкреслення при наведенні */
+        }
 .instructions-text {
             margin-top: 5px;
             font-size: 16px;
@@ -85,14 +93,14 @@ body {
 }
 
 .submit-btn {
-    margin-top: 25px;
-    background-color: #000;
-    color: #fff;
-    padding: 15px 25px;
-    border: 2px solid #FF7F50;
-    border-radius: 6px;
-    font-size: 20px;
-    cursor: pointer;
+            margin-top: 25px;
+            background-color: #000000;
+            color: #fff;
+            padding: 15px 25px;
+            border: 2px solid #FF7F50;            
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
 }
 
 .submit-btn:hover { background-color: #111; }
