@@ -9,6 +9,12 @@ body {
             width: 100vh;
             background-color: #000000;
         }    
+        .container, .container2 {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
         .hide-keyboard-btn {
             background-color: #000000;
             color: #40E0D0;
