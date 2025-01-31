@@ -1,12 +1,13 @@
 body {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
+    background-color: #000000;
     height: 100vh;
     width: 100%;
 }    
         .main-container {
-            display: flex;
+            display: block;
             flex-direction: column;
             align-items: center;
             width: 100%;
@@ -63,7 +64,7 @@ body {
             margin-bottom: 20px;
             text-align: left;
         }
-            .input-group {
+        .input-group {
             margin-bottom: 15px;
             text-align: left;
             font-size: 18px;            
@@ -96,7 +97,7 @@ body {
             font-size: 20px;
             cursor: pointer;
         }
-            .submit-btn:hover {
+        .submit-btn:hover {
             background-color: #000000;
         }    
             .channels-text {
@@ -114,12 +115,6 @@ body {
         .channels-text a:hover {
             text-decoration: underline; /* Підкреслення при наведенні */
         }   
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
         .container2 {
             display: block;
             margin-top: 30px;
