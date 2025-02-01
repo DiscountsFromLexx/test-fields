@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #fff;
     height: 100vh;
     
     
@@ -16,7 +16,7 @@ body {
             height: 100%;
         }
         .hide-keyboard-btn {
-            background-color: #000000;
+            background-color: #fff;
             color: #40E0D0;
             padding: 10px 15px;
             1px solid #40E0D0;
@@ -31,7 +31,7 @@ body {
             z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
         }
         .instruction-btn {
-            background-color: #000000;
+            background-color: #fff;
             color: #40E0D0;
             padding: 10px 15px;
             1px solid #40E0D0;
@@ -48,7 +48,7 @@ body {
         .container {
             display: block;
             margin-top: 20px;
-            background-color: #000000;
+            background-color: #fff;
             padding: 15px;
             border-radius: 20px;
             border: ;
@@ -76,7 +76,7 @@ body {
             display: block;
             margin-bottom: 5px;
             
-            background-color: #000000;
+            background-color: #fff;
             font-color: #fff
         }
         .input-group input {
@@ -85,13 +85,13 @@ body {
             border: 1px solid #ccc;
             border-radius: 8px;
             font-size: 14px;
-            background-color: #000000;
+            background-color: #fff;
             font-color: #fff
             
         }
         .submit-btn {
             margin-top: 25px;
-            background-color: #000000;
+            background-color: #fff;
             color: #fff;
             padding: 15px 25px;
             border: 2px solid #FF7F50;            
@@ -100,7 +100,7 @@ body {
             cursor: pointer;
         }
         .submit-btn:hover {
-            background-color: #000000;
+            background-color: #fff;
         }    
             .channels-text {
             margin-top: 50px;
@@ -120,7 +120,7 @@ body {
         .container2 {
             display: block;
             margin-top: 80px;
-            background-color: #000000;
+            background-color: #fff;
             padding: 15px;
             border-radius: 20px;
             border:;
