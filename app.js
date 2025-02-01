@@ -2,12 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('telegramForm');
     const instructionBtn = document.querySelector('.instruction-btn');
     const scrollTopBtn = document.querySelector('.scroll-top-btn');
-    const img = document.createElement("img");
-img.src = "image.png";
-img.width = 20;
-img.height = 20;
-document.body.appendChild(img);
-
+    
     // Прокрутка донизу при натисканні "Інструкції"
     instructionBtn.addEventListener('click', () => {
         window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
