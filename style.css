@@ -81,14 +81,14 @@ body {
             width: 90%;
             padding: 8px;
             border: 1px solid #191970;
-            border-radius: 2px;
+            border-radius: 0.5px;
             font-size: 14px;
             background-color: #fff;
             font-color: #191970
             
         }
         .submit-btn {
-            margin-top: 25px;
+            margin-top: 15px;
             background-color: #fff;
             color: #1E90FF;
             padding: 10px 20px;
@@ -118,7 +118,7 @@ body {
         }   
         .container2 {
             display: block;
-            margin-top: 100px;
+            margin-top: 150px;
             background-color: #F5F5F5;
             padding: 15px;
             border-radius: 20px;
