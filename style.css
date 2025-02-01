@@ -39,8 +39,8 @@ body {
         }
 
         .instruction-img {
-        width: 40px; /* Задай потрібний розмір */
-        height: auto;
+          width: 5px;
+          height: 5px;
         cursor: pointer;
         }    
         .container {
