@@ -134,8 +134,15 @@ body {
             font-size: 22px;
             font-weight:;
             color: #191970;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             text-align: left;
+        }
+        .instructions-text {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight:lighter;
+            color: #191970;
+            margin-bottom: left;
         }
         
         .scroll-top-btn {
@@ -158,13 +165,3 @@ body {
         .scroll-top-btn:hover {
             background-color: #32C5B8;
         }
-            
-        
-        .instructions-text {
-            margin-top: 10px;
-            font-size: 20px;
-            font-weight:lighter;
-            color: #191970;
-            margin-bottom: left;
-        }
-        
