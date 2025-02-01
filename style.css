@@ -18,9 +18,9 @@ body {
         
         .instruction-btn {
             background-color: #fff;
-            color: #5F9EA0;
+            color: #1E90FF;
             padding: 10px 15px;
-            1px solid #5F9EA0;
+            1px solid #1E90FF;
             border-radius: 4px;
             margin: 0; /* Забираємо маргін, щоб точніше контролювати позицію */
             font-size: 14px;
@@ -48,7 +48,7 @@ body {
             margin-top: 40px;
             font-size: 22px;
             font-weight:;
-            color: #5F9EA0;
+            color: #1E90FF;
             margin-bottom: 20px;
             text-align: left;
         }
@@ -56,14 +56,14 @@ body {
             margin-bottom: 15px;
             text-align: left;
             font-size: 18px;            
-            color: #48D1CC;
+            color: #1E90FF;
         }
         .input-group label {
             display: block;
             margin-bottom: 5px;
             
             background-color: #fff;
-            font-color: #5F9EA0
+            font-color: #1E90FF
         }
         .input-group input {
             width: 90%;
@@ -72,15 +72,15 @@ body {
             border-radius: 8px;
             font-size: 14px;
             background-color: #fff;
-            font-color: #5F9EA0
+            font-color: #1E90FF
             
         }
         .submit-btn {
             margin-top: 25px;
             background-color: #fff;
-            color: #5F9EA0;
+            color: #1E90FF;
             padding: 15px 25px;
-            border: 2px solid #FF7F50;            
+            border: 2px solid #006400;            
             border-radius: 6px;
             font-size: 20px;
             cursor: pointer;
@@ -88,11 +88,11 @@ body {
         .submit-btn:hover {
             background-color: #fff;
         }    
-            .channels-text {
+        .channels-text {
             margin-top: 50px;
             font-size: 16px;
             font-weight: bold;
-            color: #5F9EA0;
+            color: #1E90FF;
             margin-bottom: left;
         }
             .channels-text a {
@@ -120,7 +120,7 @@ body {
             margin-top: 20px;
             font-size: 22px;
             font-weight:;
-            color: #fff;
+            color: #1E90FF;
             margin-bottom: 20px;
             text-align: left;
         }
@@ -149,9 +149,9 @@ body {
         
         .instructions-text {
             margin-top: 40px;
-            font-size: 16px;
+            font-size: 20px;
             font-weight:lighter;
-            color: #fff;
+            color: #1E90FF;
             margin-bottom: left;
         }
         
