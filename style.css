@@ -44,6 +44,7 @@ body {
             align-items: center;
             display: block;
             margin-top: ;
+            margin-left: 5px;
             background-color: #F5F5F5;
             padding: 5px;
             border-radius: 0px;
@@ -93,6 +94,7 @@ body {
             border: 2px solid #fff;            
             border-radius: 6px;
             font-size: 15px;
+            left: 15px;
             cursor: pointer;
             position: center;
         }
@@ -114,7 +116,7 @@ body {
         }
         .channels-text {
             margin-top: 10px;
-            font-size: 16px;
+            font-size: 20px;
             font-weight:;
             color: #4682B4;
             /* margin-bottom: left; */
