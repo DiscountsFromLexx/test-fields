@@ -89,7 +89,7 @@ body {
             margin-top: 15px;
             background-color: rgb(64, 122, 167);
             color: #fff;
-            padding: 10px auto;
+            padding: auto auto;
             border: 2px solid #fff;            
             border-radius: 6px;
             font-size: 15px;
