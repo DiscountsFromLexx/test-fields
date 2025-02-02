@@ -118,14 +118,14 @@ body {
         }
         .channels-text {
             margin-top: 40px;
-            font-size: 20px;
+            font-size: 18px;
             font-weight:;
-            color: #4682B4;
+            color: rgb(64, 122, 167);
             /* margin-bottom: left; */
             text-align: left;
         }
         .channels-text a {
-            color: #4169E1; /* Синій колір посилання */
+            color: #191970; /* Синій колір посилання */
             text-decoration: none; /* Прибрати підкреслення */
         }
         
@@ -142,7 +142,7 @@ body {
             height: 110%;
             width: 100%;
             font-size: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgb(64, 122, 167);
             text-align: left;
         }          
         .iheader-text {
@@ -154,7 +154,7 @@ body {
             text-align: left;
         }
         .instructions-text {
-            margin-top: 10px;
+            margin-top: 8px;
             font-size: 20px;
             font-weight:lighter;
             color: #4682B4;
