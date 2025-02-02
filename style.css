@@ -87,8 +87,8 @@ body {
         }
         .submit-btn {
             margin-top: 15px;
-            background-color: #fff;
-            color: #1E90FF;
+            background-color: rgb(64, 122, 167);
+            color: #fff;
             padding: 10px 20px;
             border: 2px solid #32C5B8;            
             border-radius: 6px;
