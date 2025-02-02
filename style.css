@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: left;
     background-color: #F5F5F5;
     height: 100vh;
     
@@ -10,7 +10,7 @@ body {
         .main-container {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: left;
             font-family: Helvetica, sans-serif;
             width: 100%;
             height: 100%;
@@ -56,7 +56,7 @@ body {
             text-align: left;
         }  
         .header-text {
-            margin-top: 50px;
+            margin-top: 30px;
             font-size: 20px;
             font-weight:;
             color: #4682B4;
