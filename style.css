@@ -87,7 +87,7 @@ body {
             
         }
         .submit-btn {
-            margin-top: 15px;
+            margin-top: 5px;
             background-color: rgb(64, 122, 167);
             color: #fff;
             padding: 15px 20px;
@@ -115,7 +115,7 @@ body {
             text-align: left;
         }
         .channels-text {
-            margin-top: 10px;
+            margin-top: 20px;
             font-size: 20px;
             font-weight:;
             color: #4682B4;
