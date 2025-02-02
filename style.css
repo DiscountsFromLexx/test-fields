@@ -43,7 +43,7 @@ body {
         }    
         .container {
             display: block;
-            margin-top: 30px;
+            margin-top: 10px;
             background-color: #F5F5F5;
             padding: 15px;
             border-radius: 0px;
@@ -56,33 +56,33 @@ body {
         }  
         .header-text {
             margin-top: 40px;
-            font-size: 22px;
+            font-size: 20px;
             font-weight:;
-            color: #1E90FF;
-            margin-bottom: 20px;
+            color: #4682B4;
+            margin-bottom: 10px;
             text-align: left;
         }
         .input-group {
             margin-bottom: 15px;
             text-align: left;
             font-size: 20px;            
-            color: #1E90FF;
+            color: #4682B4;
         }
         .input-group label {
             display: block;
             margin-bottom: 5px;
             
             background-color: #F5F5F5;
-            font-color: #1E90FF
+            font-color: #4682B4
         }
         .input-group input {
             width: 90%;
             padding: 8px;
-            border: 0.5px solid #1E90FF;
+            border: 0.5px solid #4682B4;
             border-radius: 1px;
             font-size: 14px;
             background-color: #fff;
-            font-color: #1E90FF
+            font-color: #4682B4
             
         }
         .submit-btn {
@@ -102,7 +102,7 @@ body {
             margin-top: 50px;
             font-size: 16px;
             font-weight:;
-            color: #1E90FF;
+            color: #4682B4;
             /* margin-bottom: left; */
             text-align: left;
         }
@@ -131,7 +131,7 @@ body {
             margin-top: 20px;
             font-size: 22px;
             font-weight:;
-            color: #1E90FF;
+            color: #4682B4;
             margin-bottom: 10px;
             text-align: left;
         }
@@ -139,7 +139,7 @@ body {
             margin-top: 10px;
             font-size: 20px;
             font-weight:lighter;
-            color: #1E90FF;
+            color: #4682B4;
             margin-bottom: left;
         }
         
