@@ -41,15 +41,15 @@ body {
           cursor: pointer;
         }    
         .container {
-            align-items: left;
+            align-items: center;
             display: block;
             margin-top: 0px;
             background-color: #F5F5F5;
             padding: 15px;
             border-radius: 0px;
             border: ;
-            height: 85%;
-            width: 95%;
+            height: 75%;
+            width: 100%;
             font-size: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: left;
