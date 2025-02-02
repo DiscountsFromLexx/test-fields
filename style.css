@@ -101,12 +101,12 @@ body {
         }    
         .channels-container {
             display: block;
-            margin-top: 16px;
+            margin-top: 10px;
             background-color: #fff;
             padding: 15px;
             border-radius: 0px;
             border:;
-            height: 90%;
+            height: 80%;
             width: 100%;
             font-size: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -135,8 +135,8 @@ body {
             padding: 15px;
             border-radius: 0px;
             border:;
-            height: 100%;
-            width: 95%;
+            height: 110%;
+            width: 100%;
             font-size: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: left;
