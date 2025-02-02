@@ -101,12 +101,12 @@ body {
         }    
         .channels-container {
             display: block;
-            margin-top: 200px;
+            margin-top: 20px;
             background-color: #00FF00;
             padding: 15px;
             border-radius: 0px;
             border:;
-            height: 20%;
+            height: 100%;
             width: 95%;
             font-size: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
