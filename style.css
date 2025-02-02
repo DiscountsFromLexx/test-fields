@@ -1,10 +1,9 @@
 body {
     display: flex;
-    justify-content: left;
-    align-items: left;
-    background-color: #F5F5F5;
-    height: 100vh;
-    
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 100vh;   
     
 }    
         .main-container {
@@ -33,7 +32,7 @@ body {
         }
         .instruction-img-link {
             position: ;
-            top: 10px;
+            top: 5px;
             left: 15px;            
         }
         .instruction-img {
@@ -95,6 +94,7 @@ body {
             border-radius: 6px;
             font-size: 20px;
             cursor: pointer;
+            position: center;
         }
         .submit-btn:hover {
             background-color: #fff;
