@@ -45,13 +45,13 @@ body {
             display: block;
             margin-top: ;
             background-color: #F5F5F5;
-            padding: 15px;
+            padding: 0px;
             border-radius: 0px;
             border: ;
             height: 80%;
             width: 100%;
             font-size: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 0px rgba(0, 0, 0, 0.0);
             text-align: left;
         }  
         .header-text {
@@ -101,7 +101,7 @@ body {
         }    
         .channels-container {
             display: block;
-            margin-top: 10px;
+            margin-top: 5px;
             background-color: #fff;
             padding: 15px;
             border-radius: 0px;
@@ -130,7 +130,7 @@ body {
         }   
         .container2 {
             display: block;
-            margin-top: 200px;
+            margin-top: 150px;
             background-color: #F5F5F5;
             padding: 15px;
             border-radius: 0px;
