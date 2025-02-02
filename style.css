@@ -18,12 +18,12 @@ body {
         
         .instruction-btn {
             background-color: #fff;
-            color: #191970;
+            color: #1E90FF;
             padding: 10px 15px;
-            1px solid #191970;
+            1px solid #1E90FF;
             border-radius: 4px;
             margin: 0; /* Забираємо маргін, щоб точніше контролювати позицію */
-            font-size: 14px;
+            font-size: 16px;
             cursor: pointer;
         
             position: fixed; /* Фіксує кнопку у вікні */
@@ -34,18 +34,16 @@ body {
         .instruction-img-link {
             position: fixed;
             top: 20px;
-            left: 15px;
-            
+            left: 15px;            
         }
-
         .instruction-img {
-          width: 60px;
-          height: 60px;
+          width: 30px;
+          height: 30px;
           cursor: pointer;
         }    
         .container {
             display: block;
-            margin-top: 35px;
+            margin-top: 50px;
             background-color: #F5F5F5;
             padding: 15px;
             border-radius: 0px;
@@ -60,7 +58,7 @@ body {
             margin-top: 40px;
             font-size: 22px;
             font-weight:;
-            color: #191970;
+            color: #1E90FF;
             margin-bottom: 20px;
             text-align: left;
         }
@@ -68,23 +66,23 @@ body {
             margin-bottom: 15px;
             text-align: left;
             font-size: 20px;            
-            color: #191970;
+            color: #1E90FF;
         }
         .input-group label {
             display: block;
             margin-bottom: 5px;
             
             background-color: #fff;
-            font-color: #191970
+            font-color: #1E90FF
         }
         .input-group input {
             width: 90%;
             padding: 8px;
-            border: 0.5px solid #F5F5F5;
+            border: 0.5px solid #1E90FF;
             border-radius: 1px;
             font-size: 14px;
             background-color: #fff;
-            font-color: #191970
+            font-color: #1E90FF
             
         }
         .submit-btn {
@@ -104,7 +102,7 @@ body {
             margin-top: 50px;
             font-size: 16px;
             font-weight:;
-            color: #191970;
+            color: #1E90FF;
             /* margin-bottom: left; */
             text-align: left;
         }
@@ -133,7 +131,7 @@ body {
             margin-top: 20px;
             font-size: 22px;
             font-weight:;
-            color: #191970;
+            color: #1E90FF;
             margin-bottom: 10px;
             text-align: left;
         }
@@ -141,7 +139,7 @@ body {
             margin-top: 10px;
             font-size: 20px;
             font-weight:lighter;
-            color: #191970;
+            color: #1E90FF;
             margin-bottom: left;
         }
         
