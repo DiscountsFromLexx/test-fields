@@ -99,6 +99,19 @@ body {
         .submit-btn:hover {
             background-color: #fff;
         }    
+        .channels-container {
+            display: block;
+            margin-top: 200px;
+            background-color: #F5F5F5;
+            padding: 15px;
+            border-radius: 0px;
+            border:;
+            height: 100%;
+            width: 95%;
+            font-size: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
         .channels-text {
             margin-top: 50px;
             font-size: 16px;
