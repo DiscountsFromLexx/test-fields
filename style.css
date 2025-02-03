@@ -137,13 +137,13 @@ body {
         .tgkch-text {
             margin-top: 40px;
             font-size: 18px;
-            font-weight:bolt;
+            font-weight:bold;
             color: rgb(64, 122, 167);
             /* margin-bottom: left; */
             text-align: left;
         }
         .channels-text {
-            margin-top: 40px;
+            margin-top: 10px;
             font-size: 18px;
             font-weight:lighter;
             color: rgb(64, 122, 167);
