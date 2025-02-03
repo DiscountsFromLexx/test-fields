@@ -132,6 +132,7 @@ body {
             background: linear-gradient(to bottom, rgb(64, 122, 167), rgb(50, 100, 140));
         }   
         .clear-btn {
+            position: right
             margin-top: 5px;
             margin-right: 5px;
             background: linear-gradient(to bottom, rgb(80, 150, 200), rgb(64, 122, 167)); /* Градієнт для об'єму */
