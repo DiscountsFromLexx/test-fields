@@ -93,7 +93,7 @@ body {
             border: 0px solid #4682B4;
             border-radius: 0px;
             font-size: 14px;
-            background-color: #fff;
+            background-color: #ADD8E6;
             font-color: #4682B4
             
         }
@@ -180,7 +180,7 @@ body {
             margin-top: 40px;
             font-size: 18px;
             font-weight:bold;
-            color: rgb(64, 122, 167);
+            color: #fff;
             /* margin-bottom: left; */
             text-align: left;
         }
