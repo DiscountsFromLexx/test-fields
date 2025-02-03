@@ -61,7 +61,7 @@ body {
         .header-text {
             margin-top: 25px;
             font-size: 20px;
-            font-weight:;
+            font-weight:bold;
             color: rgb(64, 122, 167);
             margin-bottom: 10px;
             text-align: left;
@@ -136,7 +136,7 @@ body {
         .channels-text {
             margin-top: 40px;
             font-size: 18px;
-            font-weight:;
+            font-weight:lighter;
             color: rgb(64, 122, 167);
             /* margin-bottom: left; */
             text-align: left;
@@ -173,7 +173,7 @@ body {
         .instructions-text {
             margin-top: 8px;
             font-size: 20px;
-            font-weight:lighter;
+            font-weight: lighter;
             color: #4682B4;
             margin-bottom: left;
         }
