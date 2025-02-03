@@ -133,6 +133,14 @@ body {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: left;
         }
+        .tgkch-text {
+            margin-top: 40px;
+            font-size: 18px;
+            font-weight:bolt;
+            color: rgb(64, 122, 167);
+            /* margin-bottom: left; */
+            text-align: left;
+        }
         .channels-text {
             margin-top: 40px;
             font-size: 18px;
