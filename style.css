@@ -79,6 +79,7 @@ body {
             text-align: left;
             font-size: 20px;            
             color: #4682B4;
+            background-color: #FFFFF0;
         }
         .input-group label {
             display: block;
