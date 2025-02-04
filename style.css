@@ -108,7 +108,7 @@ body {
 
         .submit-btn {
             position: left
-            margin-top: 5px;
+            margin-top: 10px;
             margin-left: 2px;
             background: linear-gradient(to bottom, rgb(80, 150, 200), rgb(64, 122, 167)); /* Градієнт для об'єму */
             color: #fff;
@@ -141,7 +141,7 @@ body {
         }   
         .clear-btn {
             position: right
-            margin-top: 5px;
+            margin-top: 10px;
             margin-right: 2px;
             background: linear-gradient(to bottom, rgb(80, 150, 200), rgb(64, 122, 167)); /* Градієнт для об'єму */
             color: #fff;
