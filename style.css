@@ -89,9 +89,9 @@ body {
             font-color: #4682B4
         }
         .input-group input {
-            width: 90%;
+            width: 100%;
             padding: 8px;
-            border: 0px solid #4682B4;
+            border: 0px solid #fff;
             border-radius: 0px;
             font-size: 14px;
             background-color: #ADD8E6;
