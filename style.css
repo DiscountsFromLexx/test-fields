@@ -75,6 +75,7 @@ body {
             background-color: #ADD8E6;
         }
         .input-group {
+            width: 98%;
             margin-bottom: 15px;
             text-align: left;
             font-size: 20px;            
@@ -86,7 +87,7 @@ body {
             margin-bottom: 5px;
             width: 98%;
             background-color: #4682B4;
-            font-color: #4682B4
+            font-color: #fff
         }
         .input-group input {
             width: 98%;
