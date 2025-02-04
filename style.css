@@ -84,12 +84,13 @@ body {
         .input-group label {
             display: block;
             margin-bottom: 5px;
-            
-            background-color: #F5F5F5;
+            width: 98%;
+            background-color: #4682B4;
             font-color: #4682B4
         }
         .input-group input {
-            width: 100%;
+            width: 98%;
+            height: 20%;
             padding: 8px;
             border: 0px solid #fff;
             border-radius: 0px;
