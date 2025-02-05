@@ -121,7 +121,7 @@ body {
             margin-left: 2px;
             background: linear-gradient(to bottom, rgb(80, 150, 200), rgb(64, 122, 167)); /* Градієнт для об'єму */
             color: #fff;
-            padding: 5px 5px;
+            padding: 10px 20px;
             border: 2px solid #fff;
             border-radius: 6px;
             font-size: 16px;
@@ -154,7 +154,7 @@ body {
             margin-left: 2px;
             background: linear-gradient(to bottom, rgb(80, 150, 200), rgb(64, 122, 167)); /* Градієнт для об'єму */
             color: #fff;
-            padding: 5px 5px;
+            padding: 10px 20px;
             border: 2px solid #fff;
             border-radius: 6px;
             font-size: 16px;
