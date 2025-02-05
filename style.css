@@ -145,7 +145,7 @@ body {
         .clear-btn {
             position: right
             margin-top: 25px;
-            margin-right: 8px;
+            margin-left: 50%;
             background: linear-gradient(to bottom, rgb(80, 150, 200), rgb(64, 122, 167)); /* Градієнт для об'єму */
             color: #fff;
             padding: 5px 5px;
