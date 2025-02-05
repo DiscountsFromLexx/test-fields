@@ -108,6 +108,12 @@ body {
             
         }
 
+        .submit-group
+                    {
+            display: block;
+            flex-direction: column;
+        }
+
 
         .submit-btn {
             position: left
