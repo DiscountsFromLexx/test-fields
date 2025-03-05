@@ -33,7 +33,7 @@ body {
         .instruction-img-link {
             position: ;
             top: 20px;
-            left: 20px;            
+            left: 40px;            
         }
         .instruction-img {
           width: 70px;
@@ -102,7 +102,7 @@ body {
             height: 20%;
             padding: 8px;
             border: 1px solid #4682B4;
-            border-radius: 1px;
+            border-radius: 3px;
             font-size: 14px;
             background-color: #fff;
             font-color: #4682B4
