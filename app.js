@@ -53,3 +53,13 @@ document.addEventListener('click', (e) => {
         document.activeElement.blur();
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('telegramForm');
+    const clearBtn = document.querySelector('.clear-btn');
+
+    // Очищення всіх полів форми при натисканні кнопки "Очистити"
+    clearBtn.addEventListener('click', () => {
+        form.reset();
+    });
+});
