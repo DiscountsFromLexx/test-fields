@@ -26,14 +26,14 @@ body {
             cursor: pointer;
         
             position: left; /* Фіксує кнопку у вікні */
-            top: 25px; /* Відступ від нижнього краю вікна */
-            right: 15px; /* Відступ від правого краю вікна */
+            top: 5px; /* Відступ від нижнього краю вікна */
+            right: 5px; /* Відступ від правого краю вікна */
             z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
         }
         .instruction-img-link {
             position: ;
             top: 20px;
-            left: 15px;            
+            left: 20px;            
         }
         .instruction-img {
           width: 70px;
