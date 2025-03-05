@@ -15,31 +15,33 @@ body {
             height: 100%;
         }
         
-        .instruction-btn {
+                .instruction-btn {
             background-color: #fff;
             color: #1E90FF;
             padding: 10px 15px;
-            1px solid #1E90FF;
+            border: 1px solid #1E90FF;
             border-radius: 4px;
-            margin: 0; /* Забираємо маргін, щоб точніше контролювати позицію */
             font-size: 16px;
             cursor: pointer;
         
-            position: left; /* Фіксує кнопку у вікні */
-            top: 15px; /* Відступ від нижнього краю вікна */
-            right: 5px; /* Відступ від правого краю вікна */
+            position: fixed; /* Фіксує кнопку у вікні */
+            top: 15px; /* Відступ від верхнього краю */
+            right: 5px; /* Відступ від правого краю */
             z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
         }
+        
         .instruction-img-link {
-            position: right;
-            top: 20px;
-            left: 40px;            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Центрує елемент */
         }
+        
         .instruction-img {
-          width: 70px;
-          height: 70px;
-          cursor: pointer;
-        }    
+            width: 70px;
+            height: 70px;
+            cursor: pointer;
+        }   
         .container {
             margin-left: 0px;
             display: block;
