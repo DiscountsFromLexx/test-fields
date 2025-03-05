@@ -31,7 +31,7 @@ body {
             z-index: 1100; /* Забезпечує, щоб кнопка завжди була над іншими елементами */
         }
         .instruction-img-link {
-            position: ;
+            position: right;
             top: 20px;
             left: 40px;            
         }
